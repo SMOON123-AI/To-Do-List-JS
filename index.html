@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="c">
+
+    <div class="para">Todo List Practice 1</div>
+
+    <div class="todo-cont">
+      <input type="text" placeholder="Todo List Name" name="" class="inp"
+      onkeydown="
+        dee(event);
+      ">
+
+      <input type="date" class="in_dat">
+
+      <div>
+        <button class="btn"  onclick="
+          addtodo()
+        ">Add</button>
+
+        <button class="btn"  onclick="
+          reset()
+        ">Reset</button>
+      </div>
+    </div>
+
+  <div class="js-to-do todo-grid"></div>
+</div>
+
+  <script src="script.js"> </script>
+</body>
+</html>
